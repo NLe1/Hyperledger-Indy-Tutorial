@@ -17,10 +17,6 @@ sudo bash -c \
 sudo bash -c \
 'echo "deb https://repo.sovrin.org/sdk/deb xenial master" >> /etc/apt/sources.list'
 
-ARG python3_orderedset_ver=2.0
-ARG python3_psutil_ver=5.4.3
-ARG python3_pympler_ver=0.5
-
 sudo apt-get update -y && sudo apt-get install -y \
 indy-node=1.13.0~dev1213 libindy-crypto=0.4.5 python3-indy-crypto=0.4.5 indy-plenum=1.13.0~dev1021 libindy=1.15.0~1536-xenial indy-cli=1.15.0~1536-xenial \
 python3-orderedset=2.0 \
