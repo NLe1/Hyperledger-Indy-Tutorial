@@ -31,4 +31,4 @@ sudo python3 create_pool_ledger_genesis_file.py \
 "RnXJMDxifkBaceAkPizz8F, AmJHyEZ9ofrPz1DUfx97Qo, PeVR5pdFizbK8WN9THd3mq" \
 --nodeNum 3 \
 --network sandbox \
---ips '191.177.76.26, 22.185.194.102, 247.81.153.79'
+--ips '172.31.23.189,172.31.20.82,172.31.30.198'
