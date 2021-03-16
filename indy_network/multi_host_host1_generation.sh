@@ -1,5 +1,4 @@
-sudo python3 init_indy_node.py \
---name Node1 --seed 4000F000u00000D0000000g0000Node1
+sudo python3 init_indy_node.py --name "Node1" --seed "4000F000u00000D0000000g0000Node1"
 
 
 sudo python3 create_domain_ledger_genesis_file.py \
@@ -31,4 +30,4 @@ sudo python3 create_pool_ledger_genesis_file.py \
 "RnXJMDxifkBaceAkPizz8F, AmJHyEZ9ofrPz1DUfx97Qo, PeVR5pdFizbK8WN9THd3mq" \
 --nodeNum 1 \
 --network sandbox \
---ips '191.177.76.26, 22.185.194.102, 247.81.153.79'
+--ips '172.31.23.189,172.31.20.82,172.31.30.198'
